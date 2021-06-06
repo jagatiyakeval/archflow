@@ -32,7 +32,7 @@ def get_coco_images(images_dir):
     for image_name in images_name_list:
         temp_image_dict = {}
         img_id = images_name_list.index(image_name) + 1
-        img_path = f"{images_dir}\{image_name}"
+        img_path = fr"{images_dir}/{image_name}"
         img = cv2.imread(img_path, cv2.IMREAD_UNCHANGED)
         height = img.shape[0]
         width = img.shape[1]

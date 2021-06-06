@@ -3,3 +3,9 @@ numpy
 streamlit
 graphviz
 Pillow
+matplotlib
+networkx
+scikit-image
+scipy
+shapely
+sknw
