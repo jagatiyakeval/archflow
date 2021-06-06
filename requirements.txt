@@ -1,0 +1,5 @@
+opencv_python
+numpy
+streamlit
+graphviz
+Pillow
